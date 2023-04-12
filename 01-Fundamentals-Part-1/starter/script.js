@@ -44,3 +44,44 @@ year = 1991;
 console.log(typeof year);
 
 console.log(typeof null);
+
+// let allows for reassigning a value to a variable
+let age = 30;
+age = 31;
+
+// const restricts reassignment and cannot be undefined.
+const birthYear = 1992;
+// birthYear = 1990;
+// const job;
+
+// var was used before ES6 and is not a preferred method.
+var job = "programmer";
+job = "teacher";
+
+// math operator examples
+const now = 2037;
+const ageJonas = now - 1991;
+const ageSara = now - 2018;
+console.log(ageJonas);
+console.log(ageJonas ** 2); //squared
+
+// assignment operators
+// let x = 10;
+// x += 10;
+// x *= 4;
+// x++;
+// x--;
+// ++x;
+// --x;
+
+//comparison
+console.log(ageJonas > 100);
+console.log(ageJonas <= 100);
+
+//operator precedence
+let x, y;
+x = y = 25 - 10 - 5; // x = y = 10; x =10
+console.log(x);
+
+const averageAge = (ageJonas + ageSara) / 2;
+console.log(ageJonas, ageSara, averageAge);
