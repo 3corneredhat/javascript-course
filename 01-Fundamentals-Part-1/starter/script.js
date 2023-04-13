@@ -85,3 +85,23 @@ console.log(x);
 
 const averageAge = (ageJonas + ageSara) / 2;
 console.log(ageJonas, ageSara, averageAge);
+
+// Type conversion and coercion
+const inputYear = "1991";
+console.log(Number(inputYear) + 18); // convert string to number
+
+console.log(Number("Jonas")); // returns NaN (not a number)
+
+console.log(String(23)); // convert number to string
+
+console.log("I am " + 23 + " years old"); // '+' will convert numbers into strings
+
+console.log("23" - "10" - 3); // '-' converts strings to numbers
+
+console.log("2" * "10" - 3); // '*' also converts strings to numbers
+
+console.log(1 + 2 + 3 + "4" + 5 + 6); // outputs 6456
+
+console.log(2 + 3 + 4 + "5"); // outputs 95
+
+console.log("10" - "4" - "3" - 2 + "5"); // outputs 15
