@@ -113,7 +113,7 @@ for (let i = 0; i < dolphin.length; i++) {
 function calcAvg(scores) {
   let sum = 0;
 
-  //'of' returns the element
+  // 'of' returns the element
   for (score of scores) {
     sum += score;
   }
